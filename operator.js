@@ -23,6 +23,41 @@ const buyRice = 153;
 const buyDalil = 261;
 console.log(buyRice + buyDalil);
 
+const ihave = 500;
+const expence = 75;
+const baki = ihave / expence;
+console.log(Math.floor(baki));
+console.log(parseInt(baki));
+console.log(Math.trunc(baki));
+console.log(ihave % expence);
+
+
+const num1 = 8;
+const num2 = 3;
+console.log(num1 / num2);
+console.log(num1 % num2);
+
+const num3 = 50;
+const num4 = 9;
+console.log(num3 % num4);
+
+const part1 = "Bangla";
+const part2 = "desh";
+console.log(part1 + part2);
+
+
+const rice = 480;
+const dallyEat = 4;
+const koidenKhabo = rice / dallyEat;
+console.log(koidenKhabo);
+const month = 30;
+const kotoMonthKhabo = rice / month;
+console.log(kotoMonthKhabo);
+
+
+
+
+
 
 
 
